@@ -1,13 +1,15 @@
 # 常用工具仓库
 
 ## 大致文件
+```
 ├── ConfigFiles 各种配置文件
 ├── config.json 脚本的配置文件
 ├── myth.py sdk管理脚本
 ├── redis-3.2-6381.zip
 ├── sdk sdk的模板目录
-└── zip sdk的zip包放置目录 zip名字为 `sdk-version.zip` 内容为 `version/bin...所有文件`
+└── zip sdk的zip包放置目录 zip名字为 sdk-version.zip 内容为  version/bin...所有文件
 
+```
 ### Github
 `github仓库 URL规则`
 - 目录：

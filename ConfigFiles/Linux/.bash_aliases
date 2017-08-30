@@ -1,11 +1,11 @@
-## 环境变量手动配置
-#SDK_DIR=/home/kcp/.sdkman/candidates
-#GRADLE_HOME=$SDK_DIR/gradle/current
-#GRAILS_HOME=$SDK_DIR/grails/current
-#GROOVY_HOME=$SDK_DIR/groovy/current
-#KOTLIN_HOME=$SDK_DIR/kotlin/current
-#SCALA_HOME=$SDK_DIR/scala/current
-#export PATH=$PATH:$GRADLE_HOME/bin:$GRAILS_HOME/bin:$GROOVY_HOME/bin:$SCALA_HOME/bin:$KOTLIN_HOME/bin
+## 环境变量手动配置 统一配置
+##SDK_DIR=/home/kcp/.sdkman/candidates
+##GRADLE_HOME=$SDK_DIR/gradle/current
+###GRAILS_HOME=$SDK_DIR/grails/current
+##GROOVY_HOME=$SDK_DIR/groovy/current
+##KOTLIN_HOME=$SDK_DIR/kotlin/current
+##SCALA_HOME=$SDK_DIR/scala/current
+##export PATH=$PATH:$GRADLE_HOME/bin:$GRAILS_HOME/bin:$GROOVY_HOME/bin:$SCALA_HOME/bin:$KOTLIN_HOME/bin
 
 
 ## Myth Define Alias
@@ -23,7 +23,7 @@ alias la='ls -A' # ls -A
 alias lla='ls -la' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
-alias mk='python3 /home/kcp/Application/Script/python/mythsdk.py' # 个人开发的sdk管理脚本
+alias mk='python3 /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
 alias gy='groovy' # groovy简写
 alias py='python3' # python3 简写
 alias py2='python' # python2 简写
