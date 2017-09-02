@@ -81,6 +81,7 @@ alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 1122
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
 alias Krepos='python3  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
 alias Kdesktop='sudo python3 ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
+alias Kmyth.redis='. /home/kcp/IdeaProjects/BaseLearn/MythRedisClient/run.sh &' # MythRedis 客户端
 
 
 ## 设置终端的提示符的颜色
@@ -118,3 +119,10 @@ export PATH=$PATH:$GRADLE_HOME/bin
 
 KOTLIN_HOME=~/.mythsdk/sdk/kotlin/current
 export PATH=$PATH:$KOTLIN_HOME/bin
+
+MAVEN_HOME=~/.mythsdk/sdk/maven/current
+export PATH=$PATH:$MAVEN_HOME/bin
+
+
+SPRINGBOOT_HOME=~/.mythsdk/sdk/springboot/current
+export PATH=$PATH:$SPRINGBOOT_HOME/bin
