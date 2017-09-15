@@ -12,7 +12,7 @@
 ## 对于K.h #开头会输出，##开头不会输出，alias会被输出,其他的不会输出
 # Shell
 alias K.link='path=$(cd `dirname $0`; pwd) &&ln -s $path/.bash_aliases ~/.bash_aliases' # 将当前目录的alias配置文件映射到当前用户目录下
-alias K.h='python3 ~/Application/Script/python/show_alias_help.py' # 获取帮助文档
+alias K.h='py ~/Application/Script/python/show_alias_help.py' # 获取帮助文档
 alias Kali='gedit ~/.bash_aliases &' # 打开alias设置文件
 alias Kali.update='source ~/.bashrc' # 重新加载bash配置文件
 alias Kremove='sudo apt remove --purge' # 完全卸载软件
@@ -23,9 +23,9 @@ alias la='ls -A' # ls -A
 alias lla='ls -la' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
-alias mk='python3 /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
+alias mk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
 alias gy='groovy' # groovy简写
-alias py='python3' # python3 简写
+alias py='python3.5m' # python3.5m 简写
 alias py2='python' # python2 简写
 alias gs='git status' # git status 
 alias ga='git add *' # git add *
@@ -33,7 +33,7 @@ alias gb='git branch' # git branch
 alias gm='git commit' # git commit  
 alias gp='git push' # git push
 alias gd='git diff' # git diff
-alias go='git checkout' # git checkout
+alias gch='git checkout' # git checkout
 alias glog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short' # git log的格式化输出
 alias bell='sudo rmmod pcspkr' # 临时关闭终端响铃
 
@@ -79,8 +79,8 @@ alias Kssh.docker='ssh -p 11223 kcp@localhost' # ssh登录docker中的Ubuntu
 alias Kssh.ali.docker='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docker里的Ubuntu
 alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 11223:22 11224:8080 11225:6379
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
-alias Krepos='python3  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
-alias Kdesktop='sudo python3 ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
+alias Krepos='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
+alias Kdesktop='sudo py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
 alias Kmyth.redis='. /home/kcp/IdeaProjects/BaseLearn/MythRedisClient/run.sh &' # MythRedis 客户端
 
 
