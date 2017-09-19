@@ -77,10 +77,12 @@ alias Krec='asciinema rec' # 开始录制终端
 alias Kssh='ssh -p 22 kuang@120.25.203.47' # ssh登录服务器
 alias Kssh.docker='ssh -p 11223 kcp@localhost' # ssh登录docker中的Ubuntu
 alias Kssh.ali.docker='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docker里的Ubuntu
+alias Kssh.alpine='ssh -p 6789 root@120.25.203.47' # ssh登录docker中的alpine
 alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 11223:22 11224:8080 11225:6379
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
 alias Krepos='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
-alias Kdesktop='sudo py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
+alias Kindex='py ~/Application/Script/python/append_contents.py' # 处理markdown文件
+alias Kdesktop='py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
 alias Kmyth.redis='. /home/kcp/IdeaProjects/BaseLearn/MythRedisClient/run.sh &' # MythRedis 客户端
 
 
