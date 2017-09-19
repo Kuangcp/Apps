@@ -44,6 +44,7 @@ alias Kg.redis='cd ~/IdeaProjects/BaseLearn/MythRedisClient/' # Redis客户端�
 alias Kg.javatoolkit='cd ~/IdeaProjects/BaseLearn/JavaToolKit/' # Java工具包项目
 alias Kg.javabase='cd ~/IdeaProjects/BaseLearn/JavaBase' # Java基础项目
 alias Kg.spring.base='cd ~/IdeaProjects/SpringBoot/SpringBase' # Spring框架
+alias Kg.gradute='cd ~/IdeaProjects/SpringBoot/graduationreply' #毕业设计
 
 ## Git__Python
 alias Kg.python.learn='cd ~/PycharmProjects/PythonMythLearn/' #python学习项目
