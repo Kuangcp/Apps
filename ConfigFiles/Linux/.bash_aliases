@@ -14,6 +14,7 @@
 alias K.link='path=$(cd `dirname $0`; pwd) &&ln -s $path/.bash_aliases ~/.bash_aliases' # 将当前目录的alias配置文件映射到当前用户目录下
 alias K.h='py ~/Application/Script/python/show_alias_help.py' # 获取帮助文档
 alias Kali='gedit ~/.bash_aliases &' # 打开alias设置文件
+alias Kali.cat='cat ~/.bash_aliases' #显示文件
 alias Kali.update='source ~/.bashrc' # 重新加载bash配置文件
 alias Kremove='sudo apt remove --purge' # 完全卸载软件
 
@@ -24,6 +25,7 @@ alias lla='ls -la' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
 alias mk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
+alias ng='/home/kcp/Application/Net/Ngrok/ngrok' # ngrok
 alias gy='groovy' # groovy简写
 alias py='python3.5m' # python3.5m 简写
 alias py2='python' # python2 简写
