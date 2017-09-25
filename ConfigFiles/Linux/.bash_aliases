@@ -20,8 +20,8 @@ alias Kremove='sudo apt remove --purge' # 完全卸载软件
 
 alias l='ls -CF' # ls -CF
 alias ll='ls -lh' # ls -l 简写
-alias la='ls -A' # ls -A
-alias lla='ls -la' # ls -a 简写
+alias la='ls -Ah' # ls -A
+alias lla='ls -lah' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
 alias mk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
@@ -78,6 +78,7 @@ alias Kredis.78='./redis-cli -h 120.25.203.47 -p 6378' # 连接远程redis 6378
 
 alias Krec='asciinema rec' # 开始录制终端
 alias Kssh='ssh -p 22 kuang@120.25.203.47' # ssh登录服务器
+alias Kserver='ssh youhuigo@118.31.14.157' # 登录公司服务器
 alias Kssh.docker='ssh -p 11223 kcp@localhost' # ssh登录docker中的Ubuntu
 alias Kssh.ali.docker='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docker里的Ubuntu
 alias Kssh.alpine='ssh -p 6789 root@120.25.203.47' # ssh登录docker中的alpine
