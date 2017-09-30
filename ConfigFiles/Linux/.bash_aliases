@@ -24,6 +24,10 @@ alias la='ls -Ah' # ls -A
 alias lla='ls -lah' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
+alias dps='docker ps -a' # docker ps
+alias dim='docker images' #docker images
+alias dstas='docker stats' # docker stats
+
 alias https='http —default-scheme=https' # httpie 的https方式
 alias mk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
 alias ng='/home/kcp/Application/Net/Ngrok/ngrok' # ngrok
