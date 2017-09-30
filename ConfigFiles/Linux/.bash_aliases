@@ -24,6 +24,7 @@ alias la='ls -Ah' # ls -A
 alias lla='ls -lah' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
+alias https='http —default-scheme=https' # httpie 的https方式
 alias mk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
 alias ng='/home/kcp/Application/Net/Ngrok/ngrok' # ngrok
 alias gy='groovy' # groovy简写
@@ -47,6 +48,7 @@ alias Kg.javatoolkit='cd ~/IdeaProjects/BaseLearn/JavaToolKit/' # Java工具包�
 alias Kg.javabase='cd ~/IdeaProjects/BaseLearn/JavaBase' # Java基础项目
 alias Kg.spring.base='cd ~/IdeaProjects/SpringBoot/SpringBase' # Spring框架
 alias Kg.gradute='cd ~/IdeaProjects/SpringBoot/graduationreply' #毕业设计
+alias Kg.youhui='cd ~/IdeaProjects/weixin' # 优惠购
 
 ## Git__Python
 alias Kg.python.learn='cd ~/PycharmProjects/PythonMythLearn/' #python学习项目
@@ -79,7 +81,7 @@ alias Kredis.78='./redis-cli -h 120.25.203.47 -p 6378' # 连接远程redis 6378
 alias Krec='asciinema rec' # 开始录制终端
 alias Kssh='ssh -p 22 kuang@120.25.203.47' # ssh登录服务器
 alias Kserver='ssh youhuigo@118.31.14.157' # 登录公司服务器
-alias Kssh.docker='ssh -p 11223 kcp@localhost' # ssh登录docker中的Ubuntu
+alias Kssh.l0.alpine='ssh -p 55555 root@localhost' # ssh登录本地docker中的alpine
 alias Kssh.ali.docker='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docker里的Ubuntu
 alias Kssh.alpine='ssh -p 6789 root@120.25.203.47' # ssh登录docker中的alpine
 alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 11223:22 11224:8080 11225:6379
